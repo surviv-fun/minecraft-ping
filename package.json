@@ -1,0 +1,34 @@
+{
+    "name": "minecraft-ping",
+    "version": "1.0.0",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "jest --detectOpenHandles ./test",
+        "prettier": "npx prettier --write .",
+        "lint": "./node_modules/.bin/eslint .",
+        "licenseCheck": "license-check-and-add check -f ./licenseConfig.json",
+        "license": "license-check-and-add add -f ./licenseConfig.json"
+    },
+    "keywords": [],
+    "author": "LuciferMorningstarDev",
+    "license": "GPL-3.0",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/surviv-fun/minecraft-ping.git"
+    },
+    "bugs": {
+        "url": "https://github.com/surviv-fun/minecraft-ping/issues"
+    },
+    "homepage": "https://github.com/surviv-fun/minecraft-ping#readme",
+    "description": "",
+    "devDependencies": {
+        "eslint": "^8.22.0",
+        "jest": "^28.1.3",
+        "license-check-and-add": "^4.0.5",
+        "prettier": "^2.7.1"
+    },
+    "dependencies": {
+        "node-int64": "^0.4.0",
+        "varint": "^6.0.0"
+    }
+}
